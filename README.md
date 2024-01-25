@@ -69,3 +69,27 @@ This tutorial outlines the implementation of on-premises Active Directory within
 ![Screenshot 2024-01-24 193234](https://github.com/boluadunbarin/configure-ad/assets/157642328/8dac757f-a77c-452c-941d-ece3cc9b6a9a)
 
 ![Screenshot 2024-01-24 193501](https://github.com/boluadunbarin/configure-ad/assets/157642328/454bffa8-a72f-4317-9f7d-c0343bb49e2f)
+
+![Screenshot 2024-01-24 194122](https://github.com/boluadunbarin/configure-ad/assets/157642328/331b3f4a-24f1-493a-a676-7d86e23d54a9)
+
+![Screenshot 2024-01-24 194714](https://github.com/boluadunbarin/configure-ad/assets/157642328/1ade3f17-eda5-450b-a351-b6c87e3f7c10)
+
+![Screenshot 2024-01-24 194914](https://github.com/boluadunbarin/configure-ad/assets/157642328/c7efdc68-e78f-4516-8a46-ac99f0aca1a7)
+
+![Screenshot 2024-01-24 195310](https://github.com/boluadunbarin/configure-ad/assets/157642328/40159601-e29d-427d-86bc-cd1d5174a145)
+
+![Screenshot 2024-01-24 195829](https://github.com/boluadunbarin/configure-ad/assets/157642328/610c51cb-9b0f-4aff-9995-08685ee6ba0a)
+
+![Screenshot 2024-01-24 195924](https://github.com/boluadunbarin/configure-ad/assets/157642328/926c15d3-2e56-4320-9f1d-4d1271cea5a8)
+
+![Screenshot 2024-01-24 200035](https://github.com/boluadunbarin/configure-ad/assets/157642328/e3c2ffa6-6ffd-45d2-a568-80a9517548d0)
+
+![Screenshot 2024-01-24 200244](https://github.com/boluadunbarin/configure-ad/assets/157642328/1999ebf8-8617-4a70-ac03-0ab0755f174c)
+
+![Screenshot 2024-01-24 200511](https://github.com/boluadunbarin/configure-ad/assets/157642328/2bee0d7a-aa62-4ec0-bceb-26a27d625011)
+
+![Screenshot 2024-01-24 200609](https://github.com/boluadunbarin/configure-ad/assets/157642328/62d68869-5812-4a46-8ee4-67887bf5e6c1)
+
+![Screenshot 2024-01-24 200654](https://github.com/boluadunbarin/configure-ad/assets/157642328/4c453896-8670-47d6-9b81-04757656f114)
+
+![Screenshot 2024-01-24 200819](https://github.com/boluadunbarin/configure-ad/assets/157642328/09102939-6a62-4dd7-82ab-77733375b156)
