@@ -64,4 +64,33 @@ check connectivity
 
 ![31](https://github.com/boluadunbarin/configure-ad/assets/157642328/5bde578e-22f2-4522-8280-bd14a776cde9)
 
+![33](https://github.com/boluadunbarin/configure-ad/assets/157642328/18e9e0e9-5d6e-426f-b080-e69a2b29b385)
+
 install active directory domain  in dc1
+
+![34](https://github.com/boluadunbarin/configure-ad/assets/157642328/b7abaa64-c565-42fa-bdee-84fc7bc6d8fc)
+
+click the exclamation mark icon promote as a domain controller to set up a new forest called mydomain.com
+
+Restart and then log back into DC-1 as user: mydomain.com\gftbnd
+
+![35](https://github.com/boluadunbarin/configure-ad/assets/157642328/7a8f5cb5-1797-425e-abc7-c1f54674994a)
+
+open ADUC
+
+![36](https://github.com/boluadunbarin/configure-ad/assets/157642328/c4db4ded-4e47-42ef-8203-5d490a359cd5)
+
+![37](https://github.com/boluadunbarin/configure-ad/assets/157642328/8b15f90a-08a5-4c4d-9706-9b8ad71179fc)
+
+create _EMPLOYEES and _ADMINS OU folder
+
+![38](https://github.com/boluadunbarin/configure-ad/assets/157642328/8b4fad17-0365-42a2-bc1e-23d81f9fdc3b)
+
+create employee Jane Doe
+
+![39](https://github.com/boluadunbarin/configure-ad/assets/157642328/b6acbe1d-e99e-44de-921b-49392af6e1c7)
+
+add her to the domain admins security group
+log out and log back in as mydomain.com\jane_admin
+
+
