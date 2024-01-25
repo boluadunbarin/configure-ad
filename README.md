@@ -36,7 +36,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 ![23](https://github.com/boluadunbarin/configure-ad/assets/157642328/7fd8bc9c-ac8f-435b-b3be-853d5eb6f821)
 
-create domain controller (windows server 2022) named dc1
+create virtual machine (windows server 2022) named dc1
 
 ![24](https://github.com/boluadunbarin/configure-ad/assets/157642328/38b04302-f7bd-4496-b042-b771d3f655f1)
 
