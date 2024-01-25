@@ -112,3 +112,20 @@ Click “Remote Desktop”
 
 ![42](https://github.com/boluadunbarin/configure-ad/assets/157642328/69302de7-b06a-4a2e-a731-de919735cb9f)
 
+![42_adun](https://github.com/boluadunbarin/configure-ad/assets/157642328/91b46159-b4d7-4cb5-8e26-4673dbd3ac5d)
+
+Allow “domain users” access to remote desktop
+You can now log into client1 as a normal, non-administrative user now
+
+Login to DC-1 as jane_admin
+
+![44](https://github.com/boluadunbarin/configure-ad/assets/157642328/152cf2c8-2f1b-436c-9776-1aff4b92431e)
+
+open powershell as an administrator
+
+Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
+Run the script and observe the accounts being created
+When finished, open ADUC and observe the accounts in the appropriate OU
+attempt to log into Client-1 with one of the accounts 
+
+
