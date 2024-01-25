@@ -6,10 +6,6 @@
 This tutorial outlines the implementation of on-premises Active Directory within Azure Virtual Machines.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to Deploy on-premises Active Directory within Azure Compute](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -95,7 +91,7 @@ Log out and log back in as mydomain.com\jane_admin
 
 ![40](https://github.com/boluadunbarin/configure-ad/assets/157642328/a59f8bcf-81f8-40dd-afe4-257b6b2f508b)
 
-From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+From the Azure Portal, set client1’s DNS settings to the DC’s Private IP address
 
 Restart client1 from azure portal
 
@@ -106,8 +102,8 @@ Login to client1 (Remote Desktop) as the original local admin (gftbnd) and join 
 Login to the Domain Controller (Remote Desktop) and verify client1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
 Create a new OU named “_CLIENTS” and drag client1 into there
 
-Setup Remote Desktop for non-administrative users on Client-1
-Log into Client-1 as mydomain.com\jane_admin and open system properties
+Setup Remote Desktop for non-administrative users on client1
+Log into client1 as mydomain.com\jane_admin and open system properties
 Click “Remote Desktop”
 
 ![42](https://github.com/boluadunbarin/configure-ad/assets/157642328/69302de7-b06a-4a2e-a731-de919735cb9f)
@@ -126,6 +122,6 @@ Open powershell as an administrator
 Create a new File and paste the contents of the script into it (https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1)
 Run the script and observe the accounts being created
 When finished, open ADUC and observe the accounts in the appropriate OU
-attempt to log into Client-1 with one of the accounts 
+attempt to log into client1 with one of the accounts 
 
 
