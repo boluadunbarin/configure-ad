@@ -109,6 +109,8 @@ Click “Remote Desktop”
 ![42](https://github.com/boluadunbarin/configure-ad/assets/157642328/69302de7-b06a-4a2e-a731-de919735cb9f)
 
 select users
+
+
 ![42_adun](https://github.com/boluadunbarin/configure-ad/assets/157642328/91b46159-b4d7-4cb5-8e26-4673dbd3ac5d)
 
 Allow “domain users” access to remote desktop
