@@ -93,4 +93,22 @@ create employee Jane Doe
 add her to the domain admins security group
 log out and log back in as mydomain.com\jane_admin
 
+![40](https://github.com/boluadunbarin/configure-ad/assets/157642328/a59f8bcf-81f8-40dd-afe4-257b6b2f508b)
+
+From the Azure Portal, set Client-1’s DNS settings to the DC’s Private IP address
+
+restart client1 from azure portal
+
+![41](https://github.com/boluadunbarin/configure-ad/assets/157642328/ec9509b7-b7d1-42aa-87fd-3823a84c5c55)
+
+Login to client1 (Remote Desktop) as the original local admin (gftbnd) and join it to the domain (computer will restart)
+
+Login to the Domain Controller (Remote Desktop) and verify client1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+Create a new OU named “_CLIENTS” and drag client1 into there
+
+Setup Remote Desktop for non-administrative users on Client-1
+Log into Client-1 as mydomain.com\jane_admin and open system properties
+Click “Remote Desktop”
+
+![42](https://github.com/boluadunbarin/configure-ad/assets/157642328/69302de7-b06a-4a2e-a731-de919735cb9f)
 
