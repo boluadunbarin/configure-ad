@@ -30,15 +30,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
-![23](https://github.com/boluadunbarin/configure-ad/assets/157642328/7fd8bc9c-ac8f-435b-b3be-853d5eb6f821)
+![23](https://github.com/boluadunbarin/configure-ad/assets/157642328/7fd8bc9c-ac8f-435b-b3be-853d5eb6f821)  [1]
 
 Create virtual machine (windows server 2022) named dc1
 
-![24](https://github.com/boluadunbarin/configure-ad/assets/157642328/38b04302-f7bd-4496-b042-b771d3f655f1)
+![24](https://github.com/boluadunbarin/configure-ad/assets/157642328/38b04302-f7bd-4496-b042-b771d3f655f1)  [1]
 
 Set Domain Controller’s NIC Private IP address to be static
 
-![25](https://github.com/boluadunbarin/configure-ad/assets/157642328/ae97c4b8-ef99-4db6-924a-f8cb10204953)
+![25](https://github.com/boluadunbarin/configure-ad/assets/157642328/ae97c4b8-ef99-4db6-924a-f8cb10204953)   [1]
 
 Create client1 virtual machine with windows 10 with same vnet as dc1
 
@@ -89,11 +89,11 @@ Create employee Jane Doe
 Add her to the domain admins security group
 Log out and log back in as mydomain.com\jane_admin
 
-![40](https://github.com/boluadunbarin/configure-ad/assets/157642328/a59f8bcf-81f8-40dd-afe4-257b6b2f508b)
+![40](https://github.com/boluadunbarin/configure-ad/assets/157642328/a59f8bcf-81f8-40dd-afe4-257b6b2f508b)   [1]
 
-From the Azure Portal, set client1’s DNS settings to the DC’s Private IP address
+From the Azure Portal, set client1’s DNS settings to the DC’s Private IP address 
 
-Restart client1 from azure portal
+Restart client1 from azure portal   
 
 ![41](https://github.com/boluadunbarin/configure-ad/assets/157642328/ec9509b7-b7d1-42aa-87fd-3823a84c5c55)
 
@@ -129,3 +129,7 @@ When finished, open ADUC and observe the accounts in the appropriate OU
 attempt to log into client1 with one of the accounts 
 
 
+References
+[1]Author: Microsoft Corporation
+        Title: Microsoft Azure Documentation
+        URL: https://docs.microsoft.com/en-us/azure/
