@@ -100,6 +100,7 @@ Restart client1 from azure portal
 Login to client1 (Remote Desktop) as the original local admin (gftbnd) and join it to the domain (computer will restart)
 
 Login to the Domain Controller (Remote Desktop) and verify client1 shows up in Active Directory Users and Computers (ADUC) inside the “Computers” container on the root of the domain
+
 Create a new OU named “_CLIENTS” and drag client1 into there
 
 Setup Remote Desktop for non-administrative users on client1
